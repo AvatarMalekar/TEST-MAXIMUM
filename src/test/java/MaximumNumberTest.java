@@ -25,7 +25,7 @@ public class MaximumNumberTest {
     @Test
     public void givenFirstFloatNumber_WhenMaximum_ShouldReturn_FirstNumber() {
         float number = max.giveMaxValue(7.55f, 2.15f, 5.21f);
-        Assert.assertEquals(7.21f,number,0.0);
+        Assert.assertEquals(7.55f,number,0.0);
     }
 
     @Test
