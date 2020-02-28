@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd56c3b4-759e-44e2-aeb5-e84c67d445b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MaximumNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MaximumNumberTest.java" afterDir="false" />
@@ -55,13 +54,33 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaximumNumberTest.givenThirdFloatNumber_WhenMaximum_ShouldReturn_ThirdNumber">
+  <component name="RunManager" selected="Gradle.MaximumNumberTest.givenSecondString_WhenMaximum_ShouldReturn_SecondString">
     <configuration name="MaximumNumberTest.givenFirstFloatNumber_WhenMaximum_ShouldReturn_FirstNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;MaximumNumberTest.givenFirstFloatNumber_WhenMaximum_ShouldReturn_FirstNumber&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaximumNumberTest.givenFirstString_WhenMaximum_ShouldReturn_FirstString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;MaximumNumberTest.givenFirstString_WhenMaximum_ShouldReturn_FirstString&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -96,12 +115,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumNumberTest.givenSecondNumber_WhenMaximum_ShouldReturn_SecondNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaximumNumberTest.givenSecondString_WhenMaximum_ShouldReturn_SecondString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MaximumNumberTest.givenSecondNumber_WhenMaximum_ShouldReturn_SecondNumber&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MaximumNumberTest.givenSecondString_WhenMaximum_ShouldReturn_SecondString&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -136,33 +155,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumNumberTest.givenThirdNumber_WhenMaximum_ShouldReturn_ThirdNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MaximumNumberTest.givenThirdNumber_WhenMaximum_ShouldReturn_ThirdNumber&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaximumNumberTest.givenSecondString_WhenMaximum_ShouldReturn_SecondString" />
+        <item itemvalue="Gradle.MaximumNumberTest.givenFirstString_WhenMaximum_ShouldReturn_FirstString" />
         <item itemvalue="Gradle.MaximumNumberTest.givenThirdFloatNumber_WhenMaximum_ShouldReturn_ThirdNumber" />
         <item itemvalue="Gradle.MaximumNumberTest.givenSecondFloatNumber_WhenMaximum_ShouldReturn_SecondNumber" />
         <item itemvalue="Gradle.MaximumNumberTest.givenFirstFloatNumber_WhenMaximum_ShouldReturn_FirstNumber" />
-        <item itemvalue="Gradle.MaximumNumberTest.givenThirdNumber_WhenMaximum_ShouldReturn_ThirdNumber" />
-        <item itemvalue="Gradle.MaximumNumberTest.givenSecondNumber_WhenMaximum_ShouldReturn_SecondNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -187,26 +186,26 @@
       <screen x="70" y="27" width="1210" height="997" />
     </state>
     <state x="483" y="244" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/70.27.1210.997@70.27.1210.997" timestamp="1582883712954" />
-    <state x="376" y="27" width="587" height="997" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582886714209">
+    <state x="376" y="27" width="587" height="997" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582889280099">
       <screen x="70" y="27" width="1210" height="997" />
     </state>
-    <state x="376" y="27" width="587" height="997" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/70.27.1210.997@70.27.1210.997" timestamp="1582886714209" />
-    <state width="1164" height="257" key="GridCell.Tab.0.bottom" timestamp="1582888807366">
+    <state x="376" y="27" width="587" height="997" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/70.27.1210.997@70.27.1210.997" timestamp="1582889280099" />
+    <state width="1164" height="257" key="GridCell.Tab.0.bottom" timestamp="1582891182759">
       <screen x="70" y="27" width="1210" height="997" />
     </state>
-    <state width="1164" height="257" key="GridCell.Tab.0.bottom/70.27.1210.997@70.27.1210.997" timestamp="1582888807366" />
-    <state width="1164" height="257" key="GridCell.Tab.0.center" timestamp="1582888807365">
+    <state width="1164" height="257" key="GridCell.Tab.0.bottom/70.27.1210.997@70.27.1210.997" timestamp="1582891182759" />
+    <state width="1164" height="257" key="GridCell.Tab.0.center" timestamp="1582891182759">
       <screen x="70" y="27" width="1210" height="997" />
     </state>
-    <state width="1164" height="257" key="GridCell.Tab.0.center/70.27.1210.997@70.27.1210.997" timestamp="1582888807365" />
-    <state width="1164" height="257" key="GridCell.Tab.0.left" timestamp="1582888807364">
+    <state width="1164" height="257" key="GridCell.Tab.0.center/70.27.1210.997@70.27.1210.997" timestamp="1582891182759" />
+    <state width="1164" height="257" key="GridCell.Tab.0.left" timestamp="1582891182759">
       <screen x="70" y="27" width="1210" height="997" />
     </state>
-    <state width="1164" height="257" key="GridCell.Tab.0.left/70.27.1210.997@70.27.1210.997" timestamp="1582888807364" />
-    <state width="1164" height="257" key="GridCell.Tab.0.right" timestamp="1582888807365">
+    <state width="1164" height="257" key="GridCell.Tab.0.left/70.27.1210.997@70.27.1210.997" timestamp="1582891182759" />
+    <state width="1164" height="257" key="GridCell.Tab.0.right" timestamp="1582891182759">
       <screen x="70" y="27" width="1210" height="997" />
     </state>
-    <state width="1164" height="257" key="GridCell.Tab.0.right/70.27.1210.997@70.27.1210.997" timestamp="1582888807365" />
+    <state width="1164" height="257" key="GridCell.Tab.0.right/70.27.1210.997@70.27.1210.997" timestamp="1582891182759" />
     <state width="1164" height="318" key="GridCell.Tab.1.bottom" timestamp="1582886584025">
       <screen x="70" y="27" width="1210" height="997" />
     </state>
