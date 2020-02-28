@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MaximumNumberTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-28T12:21:17" hostname="admin1-H110M-H" time="0.003">
+<testsuite name="MaximumNumberTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-28T13:10:39" hostname="admin1-H110M-H" time="0.002">
   <properties/>
-  <testcase name="givenThirdNumber_WhenMaximum_ShouldReturn_ThirdNumber" classname="MaximumNumberTest" time="0.001"/>
+  <testcase name="givenThirdNumber_WhenMaximum_ShouldReturn_ThirdNumber" classname="MaximumNumberTest" time="0.0"/>
   <testcase name="givenNumbers_WhenProper_ShouldReturn_MaxNumber" classname="MaximumNumberTest" time="0.0"/>
   <testcase name="givenSecondString_WhenMaximum_ShouldReturn_SecondString" classname="MaximumNumberTest" time="0.0"/>
-  <testcase name="givenThirdFloatNumber_WhenMaximum_ShouldReturn_ThirdNumber" classname="MaximumNumberTest" time="0.001"/>
+  <testcase name="givenThirdFloatNumber_WhenMaximum_ShouldReturn_ThirdNumber" classname="MaximumNumberTest" time="0.0"/>
   <testcase name="givenSecondFloatNumber_WhenMaximum_ShouldReturn_SecondNumber" classname="MaximumNumberTest" time="0.0"/>
   <testcase name="givenThirdString_WhenMaximum_ShouldReturn_ThirdString" classname="MaximumNumberTest" time="0.0"/>
   <testcase name="givenFirstFloatNumber_WhenMaximum_ShouldReturn_FirstNumber" classname="MaximumNumberTest" time="0.0"/>
