@@ -22,6 +22,24 @@ public class MaximumNumberTest {
         Assert.assertEquals(8,number);
     }
 
+    @Test
+    public void givenFirstFloatNumber_WhenMaximum_ShouldReturn_FirstNumber() {
+        float number = maxNumber.giveMaxNumber(7.55f, 2.15f, 5.21f);
+        Assert.assertEquals(7.21f,number,0.0);
+    }
+
+    @Test
+    public void givenSecondFloatNumber_WhenMaximum_ShouldReturn_SecondNumber() {
+        float number = maxNumber.giveMaxNumber(5.55f, 7.15f, 2.21f);
+        Assert.assertEquals(7.15f,number,0.0);
+    }
+
+    @Test
+    public void givenThirdFloatNumber_WhenMaximum_ShouldReturn_ThirdNumber() {
+        float number = maxNumber.giveMaxNumber(3.55f, 5.15f, 7.21f);
+        Assert.assertEquals(7.21f,number,0.0);
+    }
+
     @Before
     public void setUp() throws Exception {
         maxNumber=new MaximumNumber();

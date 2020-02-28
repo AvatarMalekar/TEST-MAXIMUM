@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd56c3b4-759e-44e2-aeb5-e84c67d445b4" name="Default Changelist" comment="" />
+    <list default="true" id="dd56c3b4-759e-44e2-aeb5-e84c67d445b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MaximumNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MaximumNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MaximumNumberTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +17,16 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -19,13 +34,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YQmaFMNzUJucIciZktpcGixAq4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="RecentsManager">
@@ -33,13 +55,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaximumNumberTest.givenThirdNumber_WhenMaximum_ShouldReturn_ThirdNumber">
-    <configuration name="MaximumNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MaximumNumberTest.givenThirdFloatNumber_WhenMaximum_ShouldReturn_ThirdNumber">
+    <configuration name="MaximumNumberTest.givenFirstFloatNumber_WhenMaximum_ShouldReturn_FirstNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MaximumNumberTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MaximumNumberTest.givenFirstFloatNumber_WhenMaximum_ShouldReturn_FirstNumber&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -54,12 +76,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumNumberTest.givenNumbers_WhenProper_ShouldReturn_MaxNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaximumNumberTest.givenSecondFloatNumber_WhenMaximum_ShouldReturn_SecondNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MaximumNumberTest.givenNumbers_WhenProper_ShouldReturn_MaxNumber&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MaximumNumberTest.givenSecondFloatNumber_WhenMaximum_ShouldReturn_SecondNumber&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -80,6 +102,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;MaximumNumberTest.givenSecondNumber_WhenMaximum_ShouldReturn_SecondNumber&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaximumNumberTest.givenThirdFloatNumber_WhenMaximum_ShouldReturn_ThirdNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;MaximumNumberTest.givenThirdFloatNumber_WhenMaximum_ShouldReturn_ThirdNumber&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -116,10 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaximumNumberTest.givenThirdFloatNumber_WhenMaximum_ShouldReturn_ThirdNumber" />
+        <item itemvalue="Gradle.MaximumNumberTest.givenSecondFloatNumber_WhenMaximum_ShouldReturn_SecondNumber" />
+        <item itemvalue="Gradle.MaximumNumberTest.givenFirstFloatNumber_WhenMaximum_ShouldReturn_FirstNumber" />
         <item itemvalue="Gradle.MaximumNumberTest.givenThirdNumber_WhenMaximum_ShouldReturn_ThirdNumber" />
         <item itemvalue="Gradle.MaximumNumberTest.givenSecondNumber_WhenMaximum_ShouldReturn_SecondNumber" />
-        <item itemvalue="Gradle.MaximumNumberTest.givenNumbers_WhenProper_ShouldReturn_MaxNumber" />
-        <item itemvalue="Gradle.MaximumNumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +179,9 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="483" y="244" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1582883712954">
       <screen x="70" y="27" width="1210" height="997" />
@@ -145,22 +191,22 @@
       <screen x="70" y="27" width="1210" height="997" />
     </state>
     <state x="376" y="27" width="587" height="997" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/70.27.1210.997@70.27.1210.997" timestamp="1582886714209" />
-    <state width="1164" height="257" key="GridCell.Tab.0.bottom" timestamp="1582886863475">
+    <state width="1164" height="257" key="GridCell.Tab.0.bottom" timestamp="1582888807366">
       <screen x="70" y="27" width="1210" height="997" />
     </state>
-    <state width="1164" height="257" key="GridCell.Tab.0.bottom/70.27.1210.997@70.27.1210.997" timestamp="1582886863475" />
-    <state width="1164" height="257" key="GridCell.Tab.0.center" timestamp="1582886863474">
+    <state width="1164" height="257" key="GridCell.Tab.0.bottom/70.27.1210.997@70.27.1210.997" timestamp="1582888807366" />
+    <state width="1164" height="257" key="GridCell.Tab.0.center" timestamp="1582888807365">
       <screen x="70" y="27" width="1210" height="997" />
     </state>
-    <state width="1164" height="257" key="GridCell.Tab.0.center/70.27.1210.997@70.27.1210.997" timestamp="1582886863474" />
-    <state width="1164" height="257" key="GridCell.Tab.0.left" timestamp="1582886863474">
+    <state width="1164" height="257" key="GridCell.Tab.0.center/70.27.1210.997@70.27.1210.997" timestamp="1582888807365" />
+    <state width="1164" height="257" key="GridCell.Tab.0.left" timestamp="1582888807364">
       <screen x="70" y="27" width="1210" height="997" />
     </state>
-    <state width="1164" height="257" key="GridCell.Tab.0.left/70.27.1210.997@70.27.1210.997" timestamp="1582886863474" />
-    <state width="1164" height="257" key="GridCell.Tab.0.right" timestamp="1582886863475">
+    <state width="1164" height="257" key="GridCell.Tab.0.left/70.27.1210.997@70.27.1210.997" timestamp="1582888807364" />
+    <state width="1164" height="257" key="GridCell.Tab.0.right" timestamp="1582888807365">
       <screen x="70" y="27" width="1210" height="997" />
     </state>
-    <state width="1164" height="257" key="GridCell.Tab.0.right/70.27.1210.997@70.27.1210.997" timestamp="1582886863475" />
+    <state width="1164" height="257" key="GridCell.Tab.0.right/70.27.1210.997@70.27.1210.997" timestamp="1582888807365" />
     <state width="1164" height="318" key="GridCell.Tab.1.bottom" timestamp="1582886584025">
       <screen x="70" y="27" width="1210" height="997" />
     </state>
@@ -177,5 +223,9 @@
       <screen x="70" y="27" width="1210" height="997" />
     </state>
     <state width="1164" height="318" key="GridCell.Tab.1.right/70.27.1210.997@70.27.1210.997" timestamp="1582886584025" />
+    <state x="244" y="312" width="672" height="678" key="search.everywhere.popup" timestamp="1582887715233">
+      <screen x="70" y="27" width="1210" height="997" />
+    </state>
+    <state x="244" y="312" width="672" height="678" key="search.everywhere.popup/70.27.1210.997@70.27.1210.997" timestamp="1582887715233" />
   </component>
 </project>
