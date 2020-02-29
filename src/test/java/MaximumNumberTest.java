@@ -2,12 +2,13 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class MaximumNumberTest {
+
+public class MaximumNumberTest<E> {
     MaximumNumber max;
     @Test
     public void givenNumbers_WhenProper_ShouldReturn_MaxNumber() {
         MaximumNumber max=new MaximumNumber(8,5,2);
-       int number =(int) max.giveMaxValue();
+        int number =(int) max.giveMaxValue();
         Assert.assertEquals(8,number);
     }
 
@@ -65,6 +66,24 @@ public class MaximumNumberTest {
         MaximumNumber max=new MaximumNumber("abc","pqr","rst");
         String value= (String) max.giveMaxValue();
         Assert.assertEquals("rst",value);
+    }
+
+    @Test
+    public void givenIntArray_HasMaximum_ShouldReturn_Maximum() {
+        int value = (int)max.getMax(4, 6, 8, 12, 30);
+        Assert.assertEquals(30,value);
+    }
+
+    @Test
+    public void givenDoubleArray_HasMaximum_ShouldReturn_Maximum() {
+        float value = (float)max.getMax(4.2f,5.8f,12.2f,4.5f,30.5f,1.1f);
+        Assert.assertEquals(30.5f,value,0.0);
+    }
+
+    @Test
+    public void givenStringArray_HasMaximum_ShouldReturn_Maximum() {
+        String value=(String)max.getMax("abc","xyz","pqr","rst","Apple");
+        Assert.assertEquals("xyz",value);
     }
 
     @Before
